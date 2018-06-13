@@ -1,6 +1,4 @@
 #dice-01, #dice-02 {
-font-size: 8rem;
-
 border: 2px solid black;
 width:200px;
 height:200px;
@@ -8,12 +6,11 @@ display: inline-block;
 border-radius: 15px;
 }
 .button {
-    font-size: 2rem;
+    font-size: 30px;
     background: black;
-    border-radius: 0.5rem;
+    border-radius: 10px;
     color: white;
-    width: 30rem;
-    text-align: center;
+    width: 400px;
     cursor: pointer;
 }
 .center {
