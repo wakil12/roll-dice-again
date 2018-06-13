@@ -1,0 +1,43 @@
+#dice-01, #dice-02 {
+font-size: 8rem;
+
+border: 2px solid black;
+width:200px;
+height:200px;
+display: inline-block;
+border-radius: 15px;
+}
+.button {
+    font-size: 2rem;
+    background: black;
+    border-radius: 0.5rem;
+    color: white;
+    width: 30rem;
+    text-align: center;
+    cursor: pointer;
+}
+.center {
+margin: 50px;
+margin-right: 50px;
+text-align: center;
+}
+
+.img-01 {
+  background-image: url(/assets/inverted-dice-1.svg);
+}
+
+.img-02 {
+  background-image: url(/assets/inverted-dice-2.svg);
+}
+.img-03 {
+  background-image: url(/assets/inverted-dice-3.svg);
+}
+.img-04 {
+  background-image: url(/assets/inverted-dice-4.svg);
+}
+.img-05 {
+  background-image: url(/assets/inverted-dice-5.svg);
+}
+.img-06 {
+  background-image: url(/assets/inverted-dice-6.svg);
+}
