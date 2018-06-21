@@ -1,24 +1,26 @@
 #dice-01, #dice-02 {
-border: 2px solid black;
-width:200px;
-height:200px;
-display: inline-block;
-border-radius: 15px;
-text-align: center;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 15px;
+  text-align: center;
 }
+
 .button {
-    font-size: 30px;
-    background: black;
-    border-radius: 10px;
-    color: white;
-    width: 400px;
-    cursor: pointer;
-    text-align: center;
+  font-size: 30px;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  width: 400px;
+  cursor: pointer;
+  text-align: center;
 }
+
 .center {
-margin: 50px;
-margin-right: 50px;
-text-align: center;
+  margin: 50px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 .img-01 {
@@ -28,15 +30,19 @@ text-align: center;
 .img-02 {
   background-image: url(/assets/inverted-dice-2.svg);
 }
+
 .img-03 {
   background-image: url(/assets/inverted-dice-3.svg);
 }
+
 .img-04 {
   background-image: url(/assets/inverted-dice-4.svg);
 }
+
 .img-05 {
   background-image: url(/assets/inverted-dice-5.svg);
 }
+
 .img-06 {
   background-image: url(/assets/inverted-dice-6.svg);
 }
