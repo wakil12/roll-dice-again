@@ -8,7 +8,7 @@ function getRandomIntInclusive(min, max) {
 getRandomIntInclusive(1,6);
 
 const dice = {
-  value : 1,
+  // value: getRandomInt(1,6);
   roll: function(){
     this.value = getRandomIntInclusive(1,6);
     return this.value;
@@ -24,7 +24,7 @@ const diceTwo = {
 }
 
 
-let button = document.querySelector('button').addEventListener('click', event => {
+let = document.querySelector('button').addEventListener('click', event => {
   event.preventDefault();
   let diceOneNumber = dice.roll();
   // let containerOne = document.querySelector(".dice-01");
