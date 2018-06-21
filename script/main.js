@@ -5,7 +5,7 @@ function getRandomIntInclusive(min, max) {
   return Math.floor(Math.random() * (max - min +1)) + min;
 }
 
-console.log(getRandomIntInclusive(1,6));
+getRandomIntInclusive(1,6);
 
 const dice = {
   value : 1,
@@ -14,7 +14,7 @@ const dice = {
     return this.value;
   }
 }
-
+//Crate the dice
 const diceTwo = {
   value : 1,
   roll: function(){
