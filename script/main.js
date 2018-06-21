@@ -7,7 +7,7 @@ function getRandomIntInclusive(min, max) {
 getRandomIntInclusive(1, 6);
 
 const dice = {
-  // value: getRandomInt(1,6);
+  // value: getRandomIntInclusive(1, 6);
   roll: function() {
     this.value = getRandomIntInclusive(1, 6);
     return this.value;
@@ -22,9 +22,11 @@ const diceTwo = {
   }
 }
 
+const rollAndPrint = event => {
+  if (event) {
+    event.preventDefault();
+  }
 
-let = document.querySelector('button').addEventListener('click', event => {
-  event.preventDefault();
   let diceOneNumber = dice.roll();
   // let containerOne = document.querySelector(".dice-01");
 
@@ -47,5 +49,7 @@ let = document.querySelector('button').addEventListener('click', event => {
   if (elmTwo.className !== newClassTwo) {
     elmTwo.className = newClassTwo;
   }
-});
-//just a comment to have one commit
+}
+
+document.querySelector('button').addEventListener('click', rollAndPrint);
+rollAndPrint();
